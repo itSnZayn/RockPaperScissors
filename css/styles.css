@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: black;
+    color: white;
+}
+.game {
+    margin: 75px auto;
+    background-image:linear-gradient(to bottom in oklab,color(display-p3 0% 23% 0%) 16% 16%, 35%, color(display-p3 90% 77% 0%) 45% 45%, 67%, color(display-p3 78% 0% 0%) 84% 84%);
+    border-radius: 10px;
+    width: 350px;
+    height: 450px;
+}
+.gameBtn {
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px black;
+    cursor: pointer;
+}
+.gameBtns {
+    margin: 120px 0 0 0;
+}
+.wrap,
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gameBtn:hover {
+    background:white;
+
+}
+.score{
+    margin: 50px auto;
+}
+.greenText,
+.playerScoreDisplay {
+    color: lime;
+}
+.redText,
+.computerScoreDisplay {
+    color: rgb(255, 0, 0);
+}
