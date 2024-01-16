@@ -1,1 +1,1 @@
-Kust a friendly game of paper, rock, scissors against the computer
+Just a friendly game of paper, rock, scissors against the computer
